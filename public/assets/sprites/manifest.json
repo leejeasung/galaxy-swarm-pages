@@ -1,0 +1,93 @@
+{
+  "project": "Galaxy Swarm",
+  "cellSize": 64,
+  "format": "PNG RGBA",
+  "generatedWith": "built-in image_gen",
+  "assets": [
+    {
+      "id": "player",
+      "path": "player/player-sheet.png",
+      "size": [256, 128],
+      "grid": [4, 2],
+      "frames": [
+        "idle",
+        "engine-small",
+        "engine-bright",
+        "bank-left",
+        "bank-right",
+        "invincibility-outline",
+        "hit-flash",
+        "dual-pod"
+      ]
+    },
+    {
+      "id": "enemies",
+      "path": "enemies/enemies-sheet.png",
+      "size": [256, 256],
+      "grid": [4, 4],
+      "cellSize": 64,
+      "columns": ["swarm", "diver", "guardian", "commander"],
+      "rows": ["basic-idle", "attack", "move", "wait"],
+      "frames": [
+        "swarm-basic-idle",
+        "diver-basic-idle",
+        "guardian-basic-idle",
+        "commander-basic-idle",
+        "swarm-attack",
+        "diver-attack",
+        "guardian-attack",
+        "commander-attack",
+        "swarm-move",
+        "diver-move",
+        "guardian-move",
+        "commander-move",
+        "swarm-wait",
+        "diver-wait",
+        "guardian-wait",
+        "commander-wait"
+      ],
+      "orientation": {
+        "front": "bottom",
+        "rearEngine": "top"
+      }
+    },
+    {
+      "id": "boss",
+      "path": "boss/boss-sheet.png",
+      "size": [256, 256],
+      "grid": [2, 2],
+      "cellSize": 128,
+      "rows": ["basic-idle", "attack", "move", "wait"],
+      "frames": [
+        "basic-idle",
+        "attack",
+        "move",
+        "wait"
+      ]
+    },
+    {
+      "id": "vfx",
+      "path": "vfx/vfx-sheet.png",
+      "size": [256, 256],
+      "grid": [4, 4],
+      "frames": [
+        "player-bolt",
+        "player-bolt-trail",
+        "enemy-bolt",
+        "guardian-orb",
+        "hit-small",
+        "hit-bright",
+        "enemy-burst-small",
+        "enemy-burst-large",
+        "player-damage",
+        "player-defeat",
+        "boss-core-closed",
+        "boss-core-open",
+        "attack-warning",
+        "re-entry-warp",
+        "wave-clear",
+        "combo-sparkle"
+      ]
+    }
+  ]
+}

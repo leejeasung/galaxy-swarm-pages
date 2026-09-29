@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050817" />
+    <title>Galaxy Swarm — Arcade Defense</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="cabinet" aria-label="Galaxy Swarm arcade game">
+      <div class="screen-frame">
+        <canvas id="game" width="960" height="540" tabindex="0" role="application" aria-label="Galaxy Swarm game canvas"></canvas>
+        <div id="live-status" class="sr-only" aria-live="polite">Loading Galaxy Swarm…</div>
+      </div>
+      <p class="screen-note">Keyboard: ←/A · →/D · Space/Z fire · P/Esc pause · Enter confirm</p>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

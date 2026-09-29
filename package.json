@@ -1,0 +1,15 @@
+{
+  "name": "galaxy-swarm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A self-contained Galaga-inspired arcade shooter built with HTML5 Canvas.",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/server.mjs",
+    "test": "node --test --test-isolation=none --test-concurrency=1",
+    "test:watch": "node --test --test-isolation=none --test-concurrency=1 --watch"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
